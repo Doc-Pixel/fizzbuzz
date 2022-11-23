@@ -1,8 +1,5 @@
-from logging import root
-from traceback import print_list
 import pytest
-import brownie
-from brownie import ZERO_ADDRESS, accounts, Contract, chain
+from brownie import accounts, Contract
 
 ##### test fixtures #####
 @pytest.fixture
